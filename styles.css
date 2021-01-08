@@ -1,0 +1,55 @@
+html {
+  font-size: 10px;
+  display: flex;
+}
+h1{
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+.background{
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+img{
+  height: 25rem;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.box{
+  display: none;
+  width: 100%;
+}
+
+a:hover + .box,.box:hover{
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+
+.contact {
+ display:flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+flex-wrap: wrap;
+}
