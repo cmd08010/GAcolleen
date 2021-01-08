@@ -10,6 +10,12 @@ h1{
   flex-wrap: wrap;
 }
 
+#banner{
+  background-image: "https://unsplash.it/1500/1000?image=881&blur=5";
+  width: auto;
+  font-size: 10px;
+}
+
 body,html {
   margin: 0;
   padding: 0;
